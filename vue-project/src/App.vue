@@ -4,7 +4,6 @@
     <img src="./assets/logo.png">
     <!-- ここにvueのコンポーネントが挿入される -->
     <router-view/>
-    <button class="btn btn-primary">test</button>
   </div>
 </template>
 

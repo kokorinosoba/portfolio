@@ -1,22 +1,41 @@
 <template>
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <router-link class="text-white px-3" to="/">home</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="text-white px-3" to="/test1">test1</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="text-white px-3" to="/test2">test2</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="text-white px-3" to="/test3">test3</router-link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Welcome</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <router-link class="nav-link" to="/">Home</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link" to="/test1">test1</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link" to="/test2">test2</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link" to="/test3">test3</router-link>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Hobby
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Hobby1</a>
+          <a class="dropdown-item" href="#">Hobby2</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Hobby3</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
   </div>
+</nav>
 </template>
