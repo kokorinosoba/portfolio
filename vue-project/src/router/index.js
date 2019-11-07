@@ -12,6 +12,7 @@ import test2 from '@/components/test2'
 import test3 from '@/components/test3'
 
 Vue.use(Router)
+Vue.use(BootstrapVue)
 
 export default new Router({
   mode: 'history',
