@@ -3,6 +3,6 @@
 set -eu
 
 cd $(dirname $0)
-rmtrash static
+rm -r static
 cd vue-project
 npm run build
