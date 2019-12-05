@@ -7,7 +7,10 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#">Link</b-nav-item>
+        <b-nav-item><router-link class="text-white px-3" to="/">Home</router-link></b-nav-item>
+        <b-nav-item><router-link class="text-white px-3" to="/test1">test1</router-link></b-nav-item>
+        <b-nav-item><router-link class="text-white px-3" to="/test2">test2</router-link></b-nav-item>
+        <b-nav-item><router-link class="text-white px-3" to="/test3">test3</router-link></b-nav-item>
         <b-nav-item href="#" disabled>Disabled</b-nav-item>
       </b-navbar-nav>
 

@@ -15,7 +15,7 @@ Vue.use(Router)
 Vue.use(BootstrapVue)
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history', リンクエラーを引き起こすとてもわるいやつ
   routes: [
     {
       path: '/',
