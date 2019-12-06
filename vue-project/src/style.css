@@ -1,3 +1,8 @@
 h1 {
+  margin-top: 50px;
   color: orange;
+}
+
+.navbar-color {
+  background-color: rgb(129, 174, 235);
 }
