@@ -1,15 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 // Bootstrapを使うための設定
-// eslint-disable-next-line
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 // 使うファイルを読み込んでいる
-import HelloWorld from '@/components/HelloWorld'
-import test1 from '@/components/test1'
-import test2 from '@/components/test2'
-import test3 from '@/components/test3'
+/* eslint-disable no-multi-spaces */
+import home    from '@/components/home'
+import about   from '@/components/about'
+import history from '@/components/history'
+import works   from '@/components/works'
+import contact from '@/components/contact'
 
 Vue.use(Router)
 Vue.use(BootstrapVue)
@@ -19,23 +20,28 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Home',
+      component: home
     },
     {
-      path: '/test1',
-      name: 'test1',
-      component: test1
+      path: '/about',
+      name: 'About',
+      component: about
     },
     {
-      path: '/test2',
-      name: 'test2',
-      component: test2
+      path: '/history',
+      name: 'History',
+      component: history
     },
     {
-      path: '/test3',
-      name: 'test3',
-      component: test3
+      path: '/works',
+      name: 'Works',
+      component: works
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: contact
     }
   ]
 })

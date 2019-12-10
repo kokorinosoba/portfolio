@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <myheader></myheader>
-    <img src="./assets/logo.png">
     <!-- ここにvueのコンポーネントが挿入される -->
     <router-view/>
+    <!-- コンポーネントおわり -->
   </div>
 </template>
 
