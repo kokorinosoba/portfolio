@@ -1,3 +1,5 @@
 <template>
-  <h1>Works</h1>
+<div class="b-container">
+  <h1 class="lsf-icon" title="palette">Works</h1>
+</div>
 </template>

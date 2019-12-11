@@ -1,6 +1,6 @@
 <template>
 <div>
-  <b-navbar toggleable="lg" type="dark" class="navbar navbar-color">
+  <b-navbar toggleable="md" type="dark" class="navbar navbar-color">
     <b-navbar-brand tag="h1" class="mb-0">Takefumi's portfolio</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
