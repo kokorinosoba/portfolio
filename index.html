@@ -11,47 +11,120 @@
     <title>Takefumi's Portfolio</title>
   </head>
   <body>
-    <h1>Takefumi's Portfolio</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <h1 class="navbar-brand" href="#">Takefumi's Portfolio</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </nav>
+    <container>
+      <h2>About</h2>
 
-    <h2>About</h2>
+      <h3>自己紹介</h3>
+      <img src="#" alt="My image">
+      <p>はじめまして．私は相原健史と申します．今は昔，小学生のときの文集にて，将来はプログラマーになるとその場のノリで書いた記憶がありますが，本当にその夢が叶ってしまいました．大学に入ったときは英語の先生になるつもりでしたが，途中で方向転換し，情報コースで大学を卒業しました．大学院ではより高い専門性を身に着けようと，機械学習関連の研究をしておりました．研究ではPythonを使っていましたが，Bashも好きで，自動化プログラムや自作コマンドをよく書いたりしてます．</p>
 
-    <h3>自己紹介</h3>
-    <img src="#" alt="My image">
-    <p>はじめまして．私は相原健史と申します．今は昔，小学生のときの文集にて，将来はプログラマーになるとその場のノリで書いた記憶がありますが，本当にその夢が叶ってしまいました．大学に入ったときは英語の先生になるつもりでしたが，途中で方向転換し，情報コースで大学を卒業しました．大学院ではより高い専門性を身に着けようと，機械学習関連の研究をしておりました．研究ではPythonを使っていましたが，Bashも好きで，自動化プログラムや自作コマンドをよく書いたりしてます．</p>
+      <h3>好きなもの</h3>
+      <ul>
+        <li>食べること</li>
+        <li>考えること</li>
+        <li>読書</li>
+        <li>将棋</li>
+        <li>ピアノ</li>
+      </ul>
 
-    <h3>好きなもの</h3>
-    <ul>
-      <li>食べること</li>
-      <li>考えること</li>
-      <li>読書</li>
-      <li>将棋</li>
-      <li>ピアノ</li>
-    </ul>
+      <h2>History</h2>
+      <ul>
+        <li>小学校</li>
+        <li>中学校</li>
+        <li>高校</li>
+        <li>大学</li>
+        <li>大学院</li>
+        <li>現在</li>
+      </ul>
 
-    <h2>History</h2>
-    <ul>
-      <li>小学校</li>
-      <li>中学校</li>
-      <li>高校</li>
-      <li>大学</li>
-      <li>大学院</li>
-      <li>現在</li>
-    </ul>
+      <h2>Works</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                画像レンダリング
+              </button>
+            </h2>
+          </div>
 
-    <h2>Works</h2>
-    <ul>
-      <li>画像レンダリング</li>
-      <li>共体験システム</li>
-      <li>単位計算システム</li>
-      <li>カフェ探しBot</li>
-    </ul>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                共体験システム
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                単位計算システム
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                カフェ探しBot
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul>
+        <li>画像レンダリング</li>
+        <li>共体験システム</li>
+        <li>単位計算システム</li>
+        <li>カフェ探しBot</li>
+      </ul>
 
-    <h2>Contact</h2>
-    <ul>
-      <li><a href="https://github.com/kokorinosoba"></a></li>
-      <li><a href="https://twitter.com/kokorinosoba"></a></li>
-      <li><a href="https://www.facebook.com/pan.sola.7"></a></li>
-    </ul>
+      <h2>Contact</h2>
+      <ul>
+        <li><a href="https://github.com/kokorinosoba"></a></li>
+        <li><a href="https://twitter.com/kokorinosoba"></a></li>
+        <li><a href="https://www.facebook.com/pan.sola.7"></a></li>
+      </ul>
+    </container>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
