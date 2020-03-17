@@ -26,33 +26,43 @@
         </div>
       </div>
     </nav>
-    <container>
-      <h2 class="lsf-icon" title="human">About</h2>
+    <div class="container">
+      <h2 class="section-title lsf-icon" title="human">About</h2>
 
-      <img src="images/face.jpg" class="br-max border-img" width="200px" alt="face image">
-      <h3>自己紹介</h3>
-      <p>はじめまして．私は相原健史と申します．今は昔，小学生のときの文集にて，将来はプログラマーになるとその場のノリで書いた記憶がありますが，本当にその夢が叶ってしまいました．大学に入ったときは英語の先生になるつもりでしたが，途中で方向転換し，情報コースで大学を卒業しました．大学院ではより高い専門性を身に着けようと，機械学習関連の研究をしておりました．研究ではPythonを使っていましたが，Bashも好きで，自動化プログラムや自作コマンドをよく書いたりしてます．</p>
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="images/face.jpg" class="br-max border-img mx-auto" width="200px" alt="face image">
+        </div>
+        <div class="col-lg-9">
+          <h3>自己紹介</h3>
+          <p>はじめまして．私は相原健史と申します．今は昔，小学生のときの文集にて，将来はプログラマーになるとその場のノリで書いた記憶がありますが，本当にその夢が叶ってしまいました．大学に入ったときは英語の先生になるつもりでしたが，途中で方向転換し，情報コースで大学を卒業しました．大学院ではより高い専門性を身に着けようと，機械学習関連の研究をしておりました．研究ではPythonを使っていましたが，Bashも好きで，自動化プログラムや自作コマンドをよく書いたりしてます．</p>
 
-      <h3>好きなもの</h3>
-      <ul>
-        <li>食べること</li>
-        <li>考えること</li>
-        <li>読書</li>
-        <li>将棋</li>
-        <li>ピアノ</li>
-      </ul>
+          <h3>好きなもの</h3>
+          <ul>
+            <li>食べること</li>
+            <li>考えること</li>
+            <li>読書</li>
+            <li>将棋</li>
+            <li>ピアノ</li>
+          </ul>
+        </div>
+      </div>
 
-      <h2>History</h2>
-      <ul class="timeline">
-        <li>小学校</li>
-        <li>中学校</li>
-        <li>高校</li>
-        <li>大学</li>
-        <li>大学院</li>
-        <li>現在</li>
-      </ul>
+      <h2 class="section-title lsf-icon" title="book">History</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <ul class="timeline">
+            <li>小学校</li>
+            <li>中学校</li>
+            <li>高校</li>
+            <li>大学</li>
+            <li>大学院</li>
+            <li>現在</li>
+          </ul>
+        </div>
+      </div>
 
-      <h2>Works</h2>
+      <h2 class="section-title lsf-icon" title="palette">Works</h2>
       <div class="accordion" id="accordionExample">
         <div class="card">
           <div class="card-header" id="headingOne">
@@ -118,14 +128,16 @@
         <li>単位計算システム</li>
         <li>カフェ探しBot</li>
       </ul>
+    </div>
 
-      <h2>Contact</h2>
-      <ul>
-        <li><a href="https://github.com/kokorinosoba"></a></li>
-        <li><a href="https://twitter.com/kokorinosoba"></a></li>
-        <li><a href="https://www.facebook.com/pan.sola.7"></a></li>
-      </ul>
-    </container>
+    <footer>
+      <h2 class="section-title lsf-icon" title="mail">Contact</h2>
+      <div class="contacts text-center">
+        <a href="https://github.com/kokorinosoba" class="lsf-icon contact" title="github" style="color: white"></a>
+        <a href="https://twitter.com/kokorinosoba" class="lsf-icon contact" title="twitter" style="color: skyblue"></a>
+        <a href="https://www.facebook.com/pan.sola.7" class="lsf-icon contact" title="facebook"></a>
+      </div>
+    </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

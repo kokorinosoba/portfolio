@@ -34,6 +34,7 @@
   content: '\E007';
 }
 
+/* Setting for profile image */
 .br-max {
   border-radius: 50%;
 }
@@ -42,6 +43,24 @@
   border: solid 1px black;
 }
 
+/* Setting for h2 */
+.section-title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.section-title:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    background-color: #ccc;
+    margin: 30px auto;
+}
+
+/* Design for timeline */
 ul.timeline {
   list-style-type: none;
   position: relative;
@@ -74,4 +93,19 @@ ul.timeline>li:before {
   width: 20px;
   height: 20px;
   z-index: 400;
+}
+
+/* Set black background to footer */
+footer {
+  background-color: black;
+  color: white;
+}
+
+/* Design for Contact */
+.contact {
+  font-size: 100px;
+}
+
+.contacts {
+  margin-left: 30px;
 }
