@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'LigatureSymbols';
-    src: url('fonts/LigatureSymbols-2.11.eot');
-    src: url('fonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
-         url('fonts/LigatureSymbols-2.11.woff') format('woff'),
-         url('fonts/LigatureSymbols-2.11.ttf') format('truetype'),
-         url('fonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
-    src: url('fonts/LigatureSymbols-2.11.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'LigatureSymbols';
+  src: url('fonts/LigatureSymbols-2.11.eot');
+  src: url('fonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+    url('fonts/LigatureSymbols-2.11.woff') format('woff'),
+    url('fonts/LigatureSymbols-2.11.ttf') format('truetype'),
+    url('fonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+  src: url('fonts/LigatureSymbols-2.11.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .lsf, .lsf-icon:before {
@@ -25,13 +25,44 @@
 }
 
 .lsf-icon:before {
-  content:attr(title);
-  margin-right:0.3em;
-  font-size:130%;
+  content: attr(title);
+  margin-right: 0.3em;
+  font-size: 130%;
 }
 
 .lsf-icon.amazon:before {
   content: '\E007';
+}
+
+/* Header */
+header {
+  background-image: url('images/top.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+    -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+    0px 1px 0 #FFF, 0-1px 0 #FFF,
+    -1px 0 0 #FFF, 1px 0 0 #FFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu:link, .menu:visited, .menu:hover, .menu:active {
+  color: black;
+  text-decoration: none;
+}
+
+.menu:hover {
+  background-color: orange;
 }
 
 /* Setting for profile image */
@@ -41,23 +72,31 @@
 
 .border-img {
   border: solid 1px black;
+  align-self: center;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 /* Setting for h2 */
 .section-title {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
   font-size: 50px;
 }
 
+/* Setting for h3 */
+.subsection-title {
+  font-weight: bold;
+}
+
 .section-title:after {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 1px;
-    background-color: #ccc;
-    margin: 30px auto;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #ccc;
+  margin: 30px auto 10px;
 }
 
 /* Design for timeline */
@@ -93,6 +132,11 @@ ul.timeline>li:before {
   width: 20px;
   height: 20px;
   z-index: 400;
+}
+
+.background-gray {
+  margin-top: 20px;
+  background-color: whitesmoke;
 }
 
 /* Set black background to footer */
